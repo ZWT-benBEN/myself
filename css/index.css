@@ -1,0 +1,606 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  position: relative;
+  border: none; }
+
+.row {
+  position: relative; }
+
+.row::after {
+  content: "";
+  display: block;
+  height: 0;
+  line-height: 0;
+  clear: both; }
+
+.col {
+  float: left; }
+
+@media screen and (max-width: 3000px) {
+  .col.l1 {
+    width: 8.33333%; }
+  .col.l2 {
+    width: 16.66667%; }
+  .col.l3 {
+    width: 25%; }
+  .col.l4 {
+    width: 33.33333%; }
+  .col.l5 {
+    width: 41.66667%; }
+  .col.l6 {
+    width: 50%; }
+  .col.l7 {
+    width: 58.33333%; }
+  .col.l8 {
+    width: 66.66667%; }
+  .col.l9 {
+    width: 75%; }
+  .col.l10 {
+    width: 83.33333%; }
+  .col.l11 {
+    width: 91.66667%; }
+  .col.l12 {
+    width: 100%; } }
+
+@media screen and (max-width: 1068px) {
+  .col.m1 {
+    width: 8.33333%; }
+  .col.m2 {
+    width: 16.66667%; }
+  .col.m3 {
+    width: 25%; }
+  .col.m4 {
+    width: 33.33333%; }
+  .col.m5 {
+    width: 41.66667%; }
+  .col.m6 {
+    width: 50%; }
+  .col.m7 {
+    width: 58.33333%; }
+  .col.m8 {
+    width: 66.66667%; }
+  .col.m9 {
+    width: 75%; }
+  .col.m10 {
+    width: 83.33333%; }
+  .col.m11 {
+    width: 91.66667%; }
+  .col.m12 {
+    width: 100%; } }
+
+@media screen and (max-width: 736px) {
+  .col.s1 {
+    width: 8.33333%; }
+  .col.s2 {
+    width: 16.66667%; }
+  .col.s3 {
+    width: 25%; }
+  .col.s4 {
+    width: 33.33333%; }
+  .col.s5 {
+    width: 41.66667%; }
+  .col.s6 {
+    width: 50%; }
+  .col.s7 {
+    width: 58.33333%; }
+  .col.s8 {
+    width: 66.66667%; }
+  .col.s9 {
+    width: 75%; }
+  .col.s10 {
+    width: 83.33333%; }
+  .col.s11 {
+    width: 91.66667%; }
+  .col.s12 {
+    width: 100%; } }
+
+@font-face {
+  font-family: tubiao;
+  src: url("../tubiao/iconfont.woff") format("woff"); }
+
+@font-face {
+  font-family: tubiao;
+  src: url("../tubiao/iconfont (2).woff") format("woff"); }
+
+h1, h2, h3, h4, h5, h6, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+html {
+  font-family: HelveticaExtObl-Light; }
+
+.centerbox {
+  width: 80%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto; }
+  @media screen and (max-width: 1068px) {
+    .centerbox {
+      width: 100%;
+      width: 100%;
+      width: 100%;
+      width: 100%;
+      width: 100%;
+      width: 100%;
+      width: 100%;
+      width: 100%;
+      width: 100%;
+      width: 100%;
+      width: 100%;
+      width: 100%; }
+      .centerbox .col.m1 {
+        width: 8.33333%; }
+      .centerbox .col.m2 {
+        width: 16.66667%; }
+      .centerbox .col.m3 {
+        width: 25%; }
+      .centerbox .col.m4 {
+        width: 33.33333%; }
+      .centerbox .col.m5 {
+        width: 41.66667%; }
+      .centerbox .col.m6 {
+        width: 50%; }
+      .centerbox .col.m7 {
+        width: 58.33333%; }
+      .centerbox .col.m8 {
+        width: 66.66667%; }
+      .centerbox .col.m9 {
+        width: 75%; }
+      .centerbox .col.m10 {
+        width: 83.33333%; }
+      .centerbox .col.m11 {
+        width: 91.66667%; }
+      .centerbox .col.m12 {
+        width: 100%; } }
+  .centerbox .top {
+    width: 100%;
+    height: 303px;
+    background: #201f1d;
+    /* background: url("../images/1.png");*/
+    color: #fff; }
+    @media screen and (max-width: 414px) {
+      .centerbox .top {
+        height: 200px; } }
+    .centerbox .top .name {
+      width: 100%;
+      height: 36px;
+      position: absolute;
+      top: 36%;
+      text-align: center; }
+      .centerbox .top .name h1 {
+        width: 100%;
+        height: 36px;
+        font-family: 汉仪娃娃篆简; }
+      .centerbox .top .name span {
+        font-size: 12px;
+        position: absolute;
+        top: 40%;
+        height: 12px; }
+        @media screen and (max-width: 736px) {
+          .centerbox .top .name span {
+            top: -60%;
+            top: -60%;
+            top: -60%;
+            top: -60%;
+            top: -60%;
+            top: -60%;
+            top: -60%;
+            top: -60%;
+            top: -60%;
+            top: -60%;
+            top: -60%;
+            top: -60%; }
+            .centerbox .top .name span .col.s1 {
+              width: 8.33333%; }
+            .centerbox .top .name span .col.s2 {
+              width: 16.66667%; }
+            .centerbox .top .name span .col.s3 {
+              width: 25%; }
+            .centerbox .top .name span .col.s4 {
+              width: 33.33333%; }
+            .centerbox .top .name span .col.s5 {
+              width: 41.66667%; }
+            .centerbox .top .name span .col.s6 {
+              width: 50%; }
+            .centerbox .top .name span .col.s7 {
+              width: 58.33333%; }
+            .centerbox .top .name span .col.s8 {
+              width: 66.66667%; }
+            .centerbox .top .name span .col.s9 {
+              width: 75%; }
+            .centerbox .top .name span .col.s10 {
+              width: 83.33333%; }
+            .centerbox .top .name span .col.s11 {
+              width: 91.66667%; }
+            .centerbox .top .name span .col.s12 {
+              width: 100%; } }
+      .centerbox .top .name .twenty {
+        position: absolute;
+        left: 40%; }
+        @media screen and (max-width: 736px) {
+          .centerbox .top .name .twenty {
+            left: 46%;
+            left: 46%;
+            left: 46%;
+            left: 46%;
+            left: 46%;
+            left: 46%;
+            left: 46%;
+            left: 46%;
+            left: 46%;
+            left: 46%;
+            left: 46%;
+            left: 46%; }
+            .centerbox .top .name .twenty .col.s1 {
+              width: 8.33333%; }
+            .centerbox .top .name .twenty .col.s2 {
+              width: 16.66667%; }
+            .centerbox .top .name .twenty .col.s3 {
+              width: 25%; }
+            .centerbox .top .name .twenty .col.s4 {
+              width: 33.33333%; }
+            .centerbox .top .name .twenty .col.s5 {
+              width: 41.66667%; }
+            .centerbox .top .name .twenty .col.s6 {
+              width: 50%; }
+            .centerbox .top .name .twenty .col.s7 {
+              width: 58.33333%; }
+            .centerbox .top .name .twenty .col.s8 {
+              width: 66.66667%; }
+            .centerbox .top .name .twenty .col.s9 {
+              width: 75%; }
+            .centerbox .top .name .twenty .col.s10 {
+              width: 83.33333%; }
+            .centerbox .top .name .twenty .col.s11 {
+              width: 91.66667%; }
+            .centerbox .top .name .twenty .col.s12 {
+              width: 100%; } }
+      .centerbox .top .name .sixting {
+        position: absolute;
+        right: 40%; }
+        @media screen and (max-width: 736px) {
+          .centerbox .top .name .sixting {
+            right: 46%;
+            right: 46%;
+            right: 46%;
+            right: 46%;
+            right: 46%;
+            right: 46%;
+            right: 46%;
+            right: 46%;
+            right: 46%;
+            right: 46%;
+            right: 46%;
+            right: 46%; }
+            .centerbox .top .name .sixting .col.s1 {
+              width: 8.33333%; }
+            .centerbox .top .name .sixting .col.s2 {
+              width: 16.66667%; }
+            .centerbox .top .name .sixting .col.s3 {
+              width: 25%; }
+            .centerbox .top .name .sixting .col.s4 {
+              width: 33.33333%; }
+            .centerbox .top .name .sixting .col.s5 {
+              width: 41.66667%; }
+            .centerbox .top .name .sixting .col.s6 {
+              width: 50%; }
+            .centerbox .top .name .sixting .col.s7 {
+              width: 58.33333%; }
+            .centerbox .top .name .sixting .col.s8 {
+              width: 66.66667%; }
+            .centerbox .top .name .sixting .col.s9 {
+              width: 75%; }
+            .centerbox .top .name .sixting .col.s10 {
+              width: 83.33333%; }
+            .centerbox .top .name .sixting .col.s11 {
+              width: 91.66667%; }
+            .centerbox .top .name .sixting .col.s12 {
+              width: 100%; } }
+    .centerbox .top .helwor {
+      text-align: center;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      font-size: 12px;
+      top: 55%; }
+      @media screen and (max-width: 414px) {
+        .centerbox .top .helwor {
+          top: 60%; } }
+      .centerbox .top .helwor .hello {
+        line-height: 20px; }
+        @media screen and (max-width: 414px) {
+          .centerbox .top .helwor .hello {
+            line-height: 14px; } }
+  .centerbox .nav {
+    width: 100%;
+    height: 43px;
+    background: #ede1b9; }
+    @media screen and (max-width: 736px) {
+      .centerbox .nav {
+        width: 100%;
+        width: 100%;
+        width: 100%;
+        width: 100%;
+        width: 100%;
+        width: 100%;
+        width: 100%;
+        width: 100%;
+        width: 100%;
+        width: 100%;
+        width: 100%;
+        width: 100%; }
+        .centerbox .nav .col.s1 {
+          width: 8.33333%; }
+        .centerbox .nav .col.s2 {
+          width: 16.66667%; }
+        .centerbox .nav .col.s3 {
+          width: 25%; }
+        .centerbox .nav .col.s4 {
+          width: 33.33333%; }
+        .centerbox .nav .col.s5 {
+          width: 41.66667%; }
+        .centerbox .nav .col.s6 {
+          width: 50%; }
+        .centerbox .nav .col.s7 {
+          width: 58.33333%; }
+        .centerbox .nav .col.s8 {
+          width: 66.66667%; }
+        .centerbox .nav .col.s9 {
+          width: 75%; }
+        .centerbox .nav .col.s10 {
+          width: 83.33333%; }
+        .centerbox .nav .col.s11 {
+          width: 91.66667%; }
+        .centerbox .nav .col.s12 {
+          width: 100%; } }
+    .centerbox .nav .benny {
+      font-family: 汉仪娃娃篆简;
+      width: 30%;
+      height: 100%;
+      line-height: 43px;
+      text-align: center;
+      color: #151412;
+      position: relative; }
+    .centerbox .nav .navbox {
+      width: 50%;
+      height: 100%;
+      position: absolute;
+      left: 50%;
+      background: yellow;
+      z-index: 10;
+      top: 0px; }
+      .centerbox .nav .navbox a {
+        width: 25%;
+        height: 100%;
+        position: relative;
+        z-index: 10;
+        text-align: center;
+        line-height: 43px;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 汉仪娃娃篆简;
+        color: #8f8a84;
+        float: left; }
+        .centerbox .nav .navbox a:nth-child(1) {
+          background: #e7dab7; }
+        .centerbox .nav .navbox a:nth-child(2) {
+          background: #fefefe; }
+        .centerbox .nav .navbox a:nth-child(3) {
+          background: #f57365; }
+        .centerbox .nav .navbox a:nth-child(4) {
+          background: #2f2f2f; }
+        .centerbox .nav .navbox a li {
+          width: 100%;
+          height: 100%; }
+  .centerbox .banner {
+    width: 100%;
+    height: 413px; }
+    .centerbox .banner .item {
+      width: 100%;
+      height: 100%; }
+      .centerbox .banner .item img {
+        width: 100%;
+        height: 100%; }
+  .centerbox .myselfshow {
+    width: 100%;
+    height: 793px; }
+    .centerbox .myselfshow .selflbox {
+      width: 50%;
+      height: 100%;
+      float: left;
+      background: #131313; }
+      .centerbox .myselfshow .selflbox .selfleft {
+        width: 70%;
+        height: 100%;
+        float: right;
+        background: #131313; }
+        .centerbox .myselfshow .selflbox .selfleft img {
+          width: 295px;
+          height: 295px;
+          position: relative;
+          top: 80px; }
+        .centerbox .myselfshow .selflbox .selfleft .selcont {
+          width: 100%;
+          box-sizing: border-box;
+          border: 2px solid #ff694d;
+          position: relative;
+          top: 150px;
+          text-align: center;
+          color: #fff;
+          font-size: 26px; }
+          .centerbox .myselfshow .selflbox .selfleft .selcont h3 {
+            font-size: 28px;
+            line-height: 50px;
+            font-family: 汉仪娃娃篆简; }
+          .centerbox .myselfshow .selflbox .selfleft .selcont span {
+            padding: 10px 20px;
+            margin-top: 10px; }
+    .centerbox .myselfshow .selfrbox {
+      width: 50%;
+      height: 100%;
+      float: right;
+      background: #201f1d; }
+      .centerbox .myselfshow .selfrbox .selfright {
+        width: 70%;
+        height: 100%;
+        background: #201f1d; }
+        .centerbox .myselfshow .selfrbox .selfright h4.seltop {
+          width: 100%;
+          height: 80px;
+          background: #e6dab4;
+          line-height: 80px;
+          text-align: center;
+          color: #22051b;
+          font-family: 汉仪娃娃篆简; }
+        .centerbox .myselfshow .selfrbox .selfright .myname {
+          width: 70%;
+          height: 150px;
+          border: 2px solid #e1d8af;
+          position: relative;
+          top: 75px;
+          box-sizing: border-box;
+          border-left: none;
+          color: #e3e3e3;
+          padding: 20px 40px; }
+          .centerbox .myselfshow .selfrbox .selfright .myname h3 {
+            font-size: 20px; }
+          .centerbox .myselfshow .selfrbox .selfright .myname h1 {
+            font-size: 22px;
+            line-height: 40px; }
+            .centerbox .myselfshow .selfrbox .selfright .myname h1 span {
+              color: #ff7c6a;
+              font-family: 汉仪娃娃篆简; }
+        .centerbox .myselfshow .selfrbox .selfright .intraduce {
+          width: 100%;
+          border: 1px solid #E1D8AF;
+          position: relative;
+          top: 15%;
+          font-size: 16px;
+          color: #e3e3e3;
+          font-family: '微软雅黑';
+          margin-top: 140px;
+          padding: 30px 0; }
+          .centerbox .myselfshow .selfrbox .selfright .intraduce p {
+            margin-bottom: 20px; }
+  .centerbox .pic {
+    width: 100%;
+    height: 418px;
+    background: url("../images/6_03.png") no-repeat;
+    background-size: 100% 100%; }
+  .centerbox .zuop {
+    width: 100%;
+    height: 1700px;
+    font-size: 40px;
+    text-align: center;
+    background: #383838; }
+    .centerbox .zuop .lbox {
+      width: 50%;
+      height: 100%;
+      background: #131313;
+      float: left;
+      position: absolute; }
+    .centerbox .zuop .rbox {
+      width: 50%;
+      height: 100%;
+      background: #201f1d;
+      float: right;
+      position: absolute; }
+    .centerbox .zuop h4.seltop {
+      width: 35%;
+      height: 80px;
+      position: relative;
+      left: 50%;
+      background: #e6dab4;
+      line-height: 80px;
+      text-align: center;
+      color: #48391c;
+      font-family: 汉仪娃娃篆简; }
+    .centerbox .zuop h3 {
+      height: 50px; }
+    .centerbox .zuop .probox {
+      width: 80%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto; }
+      .centerbox .zuop .probox .row {
+        /* margin-top: 20px;*/ }
+        .centerbox .zuop .probox .row .thumbnail {
+          overflow: hidden; }
+          .centerbox .zuop .probox .row .thumbnail .zhezhao {
+            position: absolute;
+            z-index: 30;
+            width: 100%;
+            height: 78%;
+            margin: 0 auto;
+            background: #000;
+            opacity: 0; }
+            .centerbox .zuop .probox .row .thumbnail .zhezhao:hover {
+              animation: xian .8s ease forwards; }
+            .centerbox .zuop .probox .row .thumbnail .zhezhao h3 {
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              left: 0;
+              right: 0;
+              margin: auto;
+              text-align: center;
+              font-size: 40px;
+              color: #fff;
+              line-height: 100%; }
+          .centerbox .zuop .probox .row .thumbnail p {
+            font-size: 20px; }
+  .centerbox .skill {
+    width: 100%;
+    height: 300px;
+    background: #131313; }
+    .centerbox .skill h1 {
+      width: 100%;
+      text-align: center;
+      font-family: 汉仪娃娃篆简;
+      line-height: 50px; }
+    .centerbox .skill .lbox {
+      width: 50%;
+      height: 250px;
+      background: #201f1d;
+      float: left;
+      padding: 20px 30px;
+      box-sizing: border-box; }
+      .centerbox .skill .lbox .btn {
+        margin-top: 20px;
+        height: 60px;
+        padding: 0 20px;
+        margin-right: 30px; }
+    .centerbox .skill .rbox {
+      width: 50%;
+      height: 250px;
+      background: #131313;
+      float: right; }
+      .centerbox .skill .rbox .zz {
+        width: 100%;
+        color: #fff; }
+
+.bot {
+  width: 100%;
+  height: 300px;
+  background: #333;
+  font-size: 60px;
+  line-height: 300px;
+  text-align: center;
+  color: #ccc;
+  font-family: 汉仪娃娃篆简; }
+
+@keyframes xian {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 0.9; } }
